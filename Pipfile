@@ -13,4 +13,4 @@ requests = "2.11.1"
 pyrebase = "*"
 
 [requires]
-python_version = "2.7"
+python_version = "3.5"
