@@ -20,7 +20,7 @@ def send_message():
   text = content.get('text')
   chat_id = get_chat_id(content.get('name'))
   send_message(text, chat_id)
-  return '', 204
+  return jsonify(content)
 
 key = "841166799:AAG-HKf9gZKLLmaG6mp_4dgn4NNS2NIRRN8"
 
