@@ -1,0 +1,11 @@
+2019-09-01T12:41:51.447544+00:00 app[api]: Release v1 created by user luizhenrique98@gmail.com
+2019-09-01T12:41:51.447544+00:00 app[api]: Initial release by user luizhenrique98@gmail.com
+2019-09-01T12:41:51.798852+00:00 app[api]: Enable Logplex by user luizhenrique98@gmail.com
+2019-09-01T12:41:51.798852+00:00 app[api]: Release v2 created by user luizhenrique98@gmail.com
+2019-09-01T12:46:08.000000+00:00 app[api]: Build started by user luizhenrique98@gmail.com
+2019-09-01T12:46:45.083184+00:00 app[api]: Deploy ee90d028 by user luizhenrique98@gmail.com
+2019-09-01T12:46:45.083184+00:00 app[api]: Release v3 created by user luizhenrique98@gmail.com
+2019-09-01T12:46:55.000000+00:00 app[api]: Build succeeded
+2019-09-01T12:47:07.273164+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=campus-party-hacka.herokuapp.com request_id=54372489-dfab-48f4-8939-bda5917ffab6 fwd="191.241.242.5" dyno= connect= service= status=503 bytes= protocol=https
+2019-09-01T12:47:07.090377+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=campus-party-hacka.herokuapp.com request_id=3606f572-e96f-476b-8b53-354cd73ba98c fwd="191.241.242.5" dyno= connect= service= status=503 bytes= protocol=https
+2019-09-01T12:47:31.649706+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=POST path="/send_message" host=campus-party-hacka.herokuapp.com request_id=d92ed192-2edc-47a7-956e-13a8ed7462df fwd="191.241.242.5" dyno= connect= service= status=503 bytes= protocol=https
