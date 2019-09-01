@@ -17,9 +17,9 @@ db = firebase.database()
 @app.route('/send_message', methods=['POST'])
 def send_message():
   content = request.get_json()
-#   text = content.get('text')
-#   chat_id = get_chat_id(content.get('name'))
-#   send_message(text, chat_id)
+  text = content.get('text')
+  chat_id = get_chat_id(content.get('name'))
+  send_message(text, chat_id)
   return jsonify(content)
 
 key = "841166799:AAG-HKf9gZKLLmaG6mp_4dgn4NNS2NIRRN8"
