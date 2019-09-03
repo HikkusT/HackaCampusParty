@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 config = {
-  "apiKey": "AIzaSyDLWP-B57TLt9tBqHkz5oi-N0gtSBtJn7w",
+  "apiKey": "NO_KEY_FOR_YOU",
   "authDomain": "hackacampusparty.firebaseapp.com",
   "databaseURL": "https://hackacampusparty.firebaseio.com/",
   "storageBucket": "hackacampusparty.appspot.com"
